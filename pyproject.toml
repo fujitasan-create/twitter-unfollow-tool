@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twitter-unfollow-tool"
+version = "0.1.0"
+description = "Twitterの非相互フォローを検出・解除するPythonライブラリ"
+authors = [{name = "fujitasan-create", email = "blackokayu@yahoo.co.jp"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+dependencies = [
+    "selenium>=4.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/twitter-unfollow-tool"
