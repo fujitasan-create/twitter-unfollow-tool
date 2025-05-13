@@ -1,0 +1,24 @@
+# 仮想環境
+venv/
+
+# ビルド・パッケージ関連
+build/
+dist/
+*.egg-info/
+
+# Pythonのキャッシュ
+__pycache__/
+*.py[cod]
+
+# テスト関連（開発用のため不要）
+tests/
+testinst.py
+
+# 自動生成されたCSVなどローカル出力物
+non_mutuals.csv
+
+# エディタ・OSの一時ファイル
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
