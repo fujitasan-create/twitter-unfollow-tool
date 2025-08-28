@@ -4,7 +4,7 @@ Twitterの非相互フォローを自動で検出・解除できるPythonライ�
 
 ---
 
-## 🔧 機能一覧
+##  機能一覧
 
 - Twitterのフォロー中・フォロワーを自動で取得
 - 非相互フォロー（フォロー返しされていない相手）を抽出
@@ -15,7 +15,7 @@ Twitterの非相互フォローを自動で検出・解除できるPythonライ�
 
 ---
 
-## 📦 インストール方法
+##  インストール方法
 
 ```bash
 pip install twitter-unfollow-tool
@@ -23,7 +23,7 @@ pip install twitter-unfollow-tool
 
 ---
 
-## ⚠️ 注意事項
+## ⚠ 注意事項
 
 - Twitterに**ログイン済みのプロファイル**を使ってください  
 - **EdgeやChromeのすべてのウィンドウを閉じてから実行**してください（ユーザーデータがロックされるため）  
@@ -32,7 +32,7 @@ pip install twitter-unfollow-tool
 
 ---
 
-## 🚀 使用例
+##  使用例
 
 ```python
 from selenium import webdriver
@@ -76,7 +76,7 @@ driver.quit()
 
 ---
 
-## 📄 ライセンス
+##  ライセンス
 
 MIT License
 
